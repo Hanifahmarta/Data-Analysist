@@ -49,4 +49,4 @@ else:
     
     st.bar_chart(rentals_per_day_of_week)
 
-    st.pyplot(fig)
+
