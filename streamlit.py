@@ -1,6 +1,9 @@
 import pandas as pd
 import streamlit as st
 
+hourly_data = pd.read_csv("hour.csv")
+daily_data = pd.read_csv("day.csv")
+
 # Sidebar
 st.sidebar.title('Bike Sharing Dashboard')
 selected_dataset = st.sidebar.selectbox('Select Dataset', ('Hourly', 'Daily'))
